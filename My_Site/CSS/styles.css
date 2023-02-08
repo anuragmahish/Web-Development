@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'VT323', monospace;
+}
+
+a {
+    text-decoration: none;
+}
+
+.top_container {
+    padding-top: 100px;
+    background-color: #937DC2;
+    position: relative;
+}
+
+.btn {
+    margin: 50px auto;
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+.bottom_container {
+    font-size: 2rem;
+    background-color: #937DC2;
+}
+
+.profile {
+    margin: 50px auto;
+}
+
+.profile_picture {
+    width: 25%;
+}
+
+.skill-row {
+    margin: 100px auto 100px auto;
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+}
+
+h1 {
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    color: #66BFBF;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+h3 {
+    color: #11999E;
+}
+
+.top_cloud {
+    position: absolute;
+    right: 400px;
+    top: 100px;
+}
+
+.bottom_cloud {
+    position: absolute;
+    left: 400px;
+    bottom: 250px;
+}
+
+.code_img {
+    width: 25%;
+    margin-right: 30px;
+    float: left;
+}
+
+.contact_img {
+    width: 25%;
+    margin-left: 30px;
+    float: right;
+}
+
+hr {
+    border-color: #F3CCFF;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    width: 5%;
+}
